@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+
+.alert-danger {
+    background-color: #F8D7DA;
+    padding: 1rem;
+    border: 1px solid #E29659;
+    color: #7F4F41;
+    margin-top: 2rem;
+}
+
+.alert-success {
+    background-color: #D4EDDA;
+    padding: 1rem;
+    border: 1px solid #15573C;
+    color: #15573C;
+    margin-top: 2rem;
+}
+
+.icono-alerta path {
+    fill: #7F4F41;
+}

@@ -12,3 +12,7 @@
         background-color: darken($color: #4299E1, $amount: 7);
     }
 }
+
+@mixin tablet() {
+    @media (min-width:768px) { @content }
+}

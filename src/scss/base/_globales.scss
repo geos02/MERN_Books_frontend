@@ -11,7 +11,9 @@ html {
 body {
     font-size: 1.6rem;
     height: 100vh;
+    margin: 0;
 }
+
 
 .contenedor {
     max-width: 120rem;
@@ -41,4 +43,14 @@ body {
 
 .icono-alerta path {
     fill: #7F4F41;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    font-size: 3.4rem;
 }

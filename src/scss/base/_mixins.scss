@@ -1,4 +1,4 @@
-@mixin boton() {
+@mixin boton($display) {
 
     background-color: #4299E1;
     border: 0;
@@ -7,12 +7,17 @@
     font-size: 1.7rem;
     border-radius: 5px;
     cursor: pointer;
+    display: $display;
 
     &:hover {
         background-color: darken($color: #4299E1, $amount: 7);
     }
-}
+};
 
 @mixin tablet() {
     @media (min-width:768px) { @content }
-}
+};
+
+@mixin movil() {
+    @media (min-width:356px) { @content }
+};

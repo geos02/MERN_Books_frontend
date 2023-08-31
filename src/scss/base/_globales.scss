@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -12,10 +14,12 @@ body {
     font-size: 1.6rem;
     height: 100vh;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .contenedor {
+    width: 90%;
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -31,6 +35,7 @@ body {
     border: 1px solid #E29659;
     color: #7F4F41;
     margin-top: 2rem;
+  
 }
 
 .alert-success {
@@ -39,6 +44,7 @@ body {
     border: 1px solid #15573C;
     color: #15573C;
     margin-top: 2rem;
+    
 }
 
 .icono-alerta path {

@@ -82,7 +82,7 @@ function Login() {
                     </div>
 
                     <div className="flex space-between">
-                        <input type="submit" className="btn btn-verde" value="Login" onClick={handleSubmit} />
+                        <input type="submit" className="btn" value="Login" onClick={handleSubmit} />
                         <Link to={"/register"}>Registrate</Link>
                     </div>
                     { alerta.msg && <Alerta msg={alerta.msg} type={alerta.type}/>} 

@@ -4,8 +4,10 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Admin from './pages/Admin';
 import Confirmar from './pages/Confirmar';
+import AgregarLibro from './pages/AgregarLibro';
 
 import './scss/App.scss';
+import Favoritos from './pages/Favoritos';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
                 {/* Rutas Protegidas */}
                 <Route path='/admin'>
                     <Route index element={<Admin/>} />
+                    <Route path='favoritos' element={<Favoritos/>} />
+                    <Route path='nuevo' element={<AgregarLibro/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
